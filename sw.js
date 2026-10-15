@@ -2,7 +2,7 @@
 // - 같은 주소의 파일: 네트워크 먼저(새로 올린 판을 바로 받는다), 연결이 끊기면 저장본.
 // - Google Fonts(CSS·글꼴 파일): 저장본 먼저, 뒤에서 새로 받아 둔다. 실패해도 페이지는 대체 글꼴로 돈다.
 // - 분석·쿠키·그 밖의 외부 요청은 없다. 캐시 이름에 빌드 표시를 넣어 새 판이 올라오면 옛 캐시를 지운다.
-const CACHE = 'lh-site-20261014T173439Z-35ceead8';
+const CACHE = 'lh-site-20261015T142944Z-95b5538b';
 const CORE = ['./', './index.html'];
 
 self.addEventListener('install', (e) => {
